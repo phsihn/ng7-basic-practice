@@ -1,5 +1,10 @@
 # Ng7
 
+A really basic project made using Angular7. Has a home page that has a static list of users. Has a contact us page that can enter text but has no real functionality past that. No real connection to a backend. Purely for learning purposes and learning basic Angular7 and typescript.
+
+
+# Ng7
+
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 8.3.4.
 
 ## Development server
