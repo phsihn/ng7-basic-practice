@@ -1,0 +1,11 @@
+<h1>Home</h1>
+
+<!-- if the users has data, then only show this ui element -->
+<ul *ngIf="users">
+    <!-- Iterate through an array of objects, users is the prop i defined. -->
+    <li *ngFor="let user of users.data">
+        <img [src]="user.avatar">
+        <p>{{ user.first_name }} {{ user.last_name }}</p>
+
+    </li>
+</ul>
